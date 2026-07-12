@@ -1,0 +1,50 @@
+{
+  "name": "Tejas Nutrition Agent",
+  "description": "An AI-powered Nutrition Assistant built using IBM watsonx Orchestrate and IBM Granite Foundation Models that provides personalized diet recommendations, healthy meal planning, fitness nutrition guidance, and lifestyle advice.",
+  "version": "1.0.0",
+  "project": {
+    "title": "Tejas Nutrition Agent",
+    "domain": "Healthcare",
+    "problemStatement": "Nutrition Agent",
+    "developer": {
+      "name": "Tejas Prashant Gosavi",
+      "email": "tejas.gosavi.comp.2023@vpkbiet.org"
+    }
+  },
+  "platform": {
+    "cloud": "IBM Cloud",
+    "orchestrate": "IBM watsonx Orchestrate",
+    "foundationModel": "GPT-OSS 120B (IBM Granite)"
+  },
+  "features": [
+    "Personalized Diet Recommendations",
+    "Nutrition Guidance",
+    "Gym Diet Planning",
+    "Healthy Meal Suggestions",
+    "Coffee Routine Optimization",
+    "Macronutrient Guidance",
+    "Calorie Estimation",
+    "Natural Language Conversation"
+  ],
+  "components": [
+    "User Input",
+    "IBM watsonx Orchestrate",
+    "Tejas Nutrition Agent",
+    "IBM Granite GPT-OSS 120B",
+    "Agent Reasoning",
+    "Chat Output"
+  ],
+  "workflow": [
+    "User submits nutrition query",
+    "IBM watsonx Orchestrate processes request",
+    "Granite Foundation Model understands prompt",
+    "Agent reasons using configured instructions",
+    "Personalized nutrition response is generated",
+    "Response displayed to the user"
+  ],
+  "deployment": {
+    "status": "Live",
+    "platform": "IBM watsonx Orchestrate"
+  }
+  
+}
